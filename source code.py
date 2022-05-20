@@ -241,4 +241,4 @@ async def bol(ctx):
 async def change_status():
     await client.change_presence(activity=discord.Game(choice(status)))
 keep_alive()
-client.run("ODg1OTI0MDM5MTQ1Njg5MTA4.YTuHDg.tWtf7GGkBcRGv5swGbIm0Vj8bXs")
+client.run("TOKEN")
